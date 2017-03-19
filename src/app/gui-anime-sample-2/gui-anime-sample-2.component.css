@@ -1,0 +1,22 @@
+#sampleFrame{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+.sampleButton{
+    background-color: #FFFFFF;
+    width: 320px;
+    height: 180px;
+    margin: 20px;
+    position: relative;
+    border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+#pageLink{
+    width: 10vw;
+    height: 8vh;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+}

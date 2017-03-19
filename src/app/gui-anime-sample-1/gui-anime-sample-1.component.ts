@@ -1,5 +1,5 @@
 import { Component,Input,trigger,state,style,
-  transition,animate,OnInit } from '@angular/core';
+  transition,animate, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-gui-anime-sample-1',
@@ -8,7 +8,7 @@ import { Component,Input,trigger,state,style,
   animations: [
     trigger('buttonState', [
       state('inactive', style({
-        backgroundColor: '#eee',
+        backgroundColor: '#fff',
         transform: 'scale(1)'
       })),
       state('active',   style({

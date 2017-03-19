@@ -1,11 +1,11 @@
-#sample1Button{
-    width: 20vw;
-    height: 10vh;
+#sampleButton{
+    width: 300px;
+    height: 300px;
     position: absolute;
     bottom: 45%;
     left: 45%;
 }
-#nextButton{
+#pageLink{
     width: 10vw;
     height: 8vh;
     position: absolute;

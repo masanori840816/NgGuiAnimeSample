@@ -1,3 +1,11 @@
-<p>
-  gui-anime-sample-2 works!
-</p>
+<h2>
+Sample 2 移動・影
+</h2>
+<section id='sampleFrame' class='sampleButtons'>
+  <nav *ngFor="let sButton of sampleButtons">
+    <button class='sampleButton' [@buttonState]=sButton.state  (mouseover)="onButtonIn(sButton.id)" (mouseout)="onButtonOut(sButton.id)">
+    {{sButton.pageTitle}}
+    </button>
+  </nav>
+</section>
+<a routerLink='/sample1' id='pageLink'>Backward</a>
