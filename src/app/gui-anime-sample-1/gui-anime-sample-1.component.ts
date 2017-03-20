@@ -15,8 +15,8 @@ import { Component,Input,trigger,state,style,
         backgroundColor: '#cfd8dc',
         transform: 'scale(1.5)'
       })),
-      transition('inactive => active', animate('200ms ease-in')),
-      transition('active => inactive', animate('200ms ease-out'))
+      transition('inactive => active', animate('200ms ease-in-out')),
+      transition('active => inactive', animate('200ms ease-in-out'))
     ])
   ]
 })
@@ -29,5 +29,8 @@ export class GuiAnimeSample1Component implements OnInit {
   }
   private onButtonClicked(){
     this.state = (this.state === 'active')? 'inactive': 'active'; 
+  }
+  private onAnimeDone(){
+    // TODO: アニメーション完了後の処理.
   }
 }
